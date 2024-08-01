@@ -5,23 +5,23 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="FUgGEpyX1RuSj01Xcypt-24" value="手机APP端" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="162" y="194" width="82" height="34" as="geometry" />
+          <mxGeometry x="160" y="194" width="80" height="34" as="geometry" />
         </mxCell>
         <mxCell id="FUgGEpyX1RuSj01Xcypt-25" value="人脸识别服务器端" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="495" y="251" width="79" height="79" as="geometry" />
+          <mxGeometry x="479" y="251" width="79" height="79" as="geometry" />
         </mxCell>
         <mxCell id="FUgGEpyX1RuSj01Xcypt-26" value="数据库" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="686" y="271" width="64" height="34" as="geometry" />
         </mxCell>
         <mxCell id="FUgGEpyX1RuSj01Xcypt-27" value="手机APP端" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="162" y="353" width="89" height="34" as="geometry" />
+          <mxGeometry x="161" y="353" width="78" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="FUgGEpyX1RuSj01Xcypt-29" value="上传人脸图像（注册人脸）" style="curved=1;startArrow=none;endArrow=block;entryX=0;entryY=0;rounded=0;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="FUgGEpyX1RuSj01Xcypt-24" target="FUgGEpyX1RuSj01Xcypt-61">
-          <mxGeometry x="0.0016" relative="1" as="geometry">
+        <mxCell id="FUgGEpyX1RuSj01Xcypt-29" value="上传人脸图像（注册人脸）" style="curved=1;startArrow=none;endArrow=block;entryX=0;entryY=0;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="FUgGEpyX1RuSj01Xcypt-61">
+          <mxGeometry x="-0.0841" y="-4" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="366.9" y="239" />
             </Array>
-            <mxPoint x="263" y="262" as="sourcePoint" />
+            <mxPoint x="242" y="210" as="sourcePoint" />
             <mxPoint x="433" y="213.5" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
@@ -40,13 +40,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FUgGEpyX1RuSj01Xcypt-60" value="上传人脸图像（识别人脸）" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;rounded=0;exitDx=0;exitDy=0;entryX=0.063;entryY=0.844;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FUgGEpyX1RuSj01Xcypt-27" target="FUgGEpyX1RuSj01Xcypt-61">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="FUgGEpyX1RuSj01Xcypt-60" value="上传人脸图像（识别人脸）" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;rounded=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FUgGEpyX1RuSj01Xcypt-27" target="FUgGEpyX1RuSj01Xcypt-61">
+          <mxGeometry x="0.009" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="353" y="338" />
             </Array>
             <mxPoint x="273" y="328" as="sourcePoint" />
-            <mxPoint x="440" y="370" as="targetPoint" />
+            <mxPoint x="370" y="320" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FUgGEpyX1RuSj01Xcypt-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FUgGEpyX1RuSj01Xcypt-61" target="FUgGEpyX1RuSj01Xcypt-25">
